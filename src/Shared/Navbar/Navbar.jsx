@@ -40,6 +40,28 @@ function Navbar() {
             <li className="nav-item">
               <NavLink
                 exact
+                to="/appointment"
+                activeClassName="active"
+                className="nav-links"
+                onClick={handleClick}
+              >
+                Appointment
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink
+                exact
+                to="/reviews"
+                activeClassName="active"
+                className="nav-links"
+                onClick={handleClick}
+              >
+                Reviews
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink
+                exact
                 to="/services"
                 activeClassName="active"
                 className="nav-links"
